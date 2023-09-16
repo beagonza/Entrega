@@ -1,0 +1,85 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+#titulo {
+  text-align: center;
+  font-size: x-large;
+}
+#subtitulo {
+  text-align: center;
+  font-size: small;
+}
+#item {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+}
+
+#contra {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60%;
+}
+
+
+#boton {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 73%;
+}
+#recu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 85%;
+}
+#clear {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 80%;
+}
+
+#avatar {
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+}
+
+//#animar{
+  //position: absolute;
+  //left: 0;
+  //right: 0;
+  //top: 25%;
+//}
+

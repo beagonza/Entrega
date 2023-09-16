@@ -1,0 +1,46 @@
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title id="titulo">
+      TeLlevoApp
+    </ion-title>
+    <p id="subtitulo"></p>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-avatar id="avatar" (click)="avatarPlay()" size="small" shape="round" >
+      <img src="https://i.pinimg.com/750x/d3/0f/ef/d30feffc63bc1b8b78798cd26a2e3367.jpg" alt="logo"/>
+    </ion-avatar>
+
+    
+
+  <div id="container">
+    <strong>Bienvenido!</strong>
+    
+  </div>
+
+
+</ion-content>
+<ion-item id="item">
+  <ion-item>
+    <ion-input label="Nombre Usuario" labelPlacement="floating"
+      placeholder="Ingrese su Usuario"></ion-input>
+  </ion-item>
+</ion-item>
+<ion-item id="contra">
+  <ion-input label="Contraseña" type="password" labelPlacement="floating"
+    placeholder="Ingrese su Contraseña">
+  </ion-input>
+</ion-item>
+<ion-button (click)="enviainfor()" size="small" shape="round" fill="clear" id="boton">Ingresar</ion-button>
+<h1>{{mensaje}}</h1><br>
+<ion-button (click)="enviarInformacion()" size="small" shape="round" fill="clear" id="clear" ><u>crea tu cuenta gratis</u></ion-button>
+
+<ion-button (click)="enviarInfo()" size="small" shape="round" fill="clear" id="recu" ><u>recuperar contraseña</u></ion-button>
